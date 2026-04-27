@@ -20,9 +20,9 @@ Game engines
 Backend systems
 3. Industry Adoption
 The following companies are using Rust in real systems:
-i. Microsoft
-ii. Amazon
-iii. Google
+1. Microsoft
+2. Amazon
+3. Google
 .
 
 # Rust is used in:
