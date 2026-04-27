@@ -51,3 +51,56 @@ let mut x = 10;
 x = 20;
 3. Constant
 const MAX: i32 = 100;
+
+# STEP-BY-STEP: My First Rust Project
+1. Install Rust
+Go to: https://rustup.rs
+Download and install.
+Then verify:
+cargo --version 
+
+1. Create a Project
+Run this in terminal:
+cargo new hello_rust 
+This uses Cargo a Rust tool for managing projects
+
+3. Open the Folder
+cd hello_rust
+4. Project Structure
+
+You will see:
+
+hello_rust/
+ ├── Cargo.toml   ← project config
+ └── src/
+     └── main.rs  ← main code
+5. Write the First Code
+
+Open src/main.rs and replace with:
+
+fn main() {
+    println!("Hello Gloria , Welcome to rust world!");
+}
+
+6. Run the Program
+in the terminal still at hello_rust folder
+type:
+cargo run
+
+You should see:
+Hello Gloria , Welcome to rust world!
+
+# How to Run because I already have the project on Github
+
+1. Install Rust: https://rustup.rs
+
+2. Clone this repository:
+
+git clone https://github.com/Gloriamuema/Rust-Programming.git
+
+3. Navigate into the project:
+cd Rust-Programming
+cd hello_rust
+
+4. Run the project:
+cargo run
