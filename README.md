@@ -1,5 +1,5 @@
 # Rust-Programming
-Learning Rust 
+This repository represents my hands-on journey into Rust programming as part of my capstone project at Moringa School under the AI Access for Software Developers course. It reflects my growth in writing safe, efficient, and modern code while exploring real-world problem solving using Artificial intelligence
 
 # What is Rust?
 
