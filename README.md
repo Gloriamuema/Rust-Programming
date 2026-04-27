@@ -104,3 +104,9 @@ cd hello_rust
 
 4. Run the project:
 cargo run
+
+
+# What I Learned
+1. How to create a Rust project using Cargo
+2. Basic Rust syntax
+3. Writing and running a simple program
