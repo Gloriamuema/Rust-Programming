@@ -152,14 +152,15 @@ rust_calculator/
  └── src/
      └── main.rs
 # What I Learned
-Rust basics (variables, input/output, match statements)
-Handling user input in Rust
-Error handling using expect()
-Building CLI applications
+1. Rust basics (variables, input/output, match statements)
+2. Handling user input in Rust
+3. Error handling using expect()
+4. Building CLI applications
 # Future Improvements
-Add loop for continuous calculations
-Improve error handling (avoid crashes)
-Add more operations (power, modulus)
-👩‍💻 Author
-
+1. Add loop for continuous calculations
+2. Improve error handling (avoid crashes)
+3. Add more operations (power, modulus)
+   
+   
+# Author
 Gloria Muema
