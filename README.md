@@ -19,28 +19,27 @@ Operating systems
 Game engines
 Backend systems
 3. Industry Adoption
-Companies like:
-Microsoft
-Amazon
-Google
-are using Rust in real systems.
+The following companies are using Rust in real systems:
+i. Microsoft
+ii. Amazon
+iii. Google
+.
 
 # Rust is used in:
-Backend development (APIs, servers)
-Systems programming (OS, drivers)
-WebAssembly (WASM) for web apps
-Embedded systems
-CLI tools (command-line apps)
+1. Backend development (APIs, servers)
+2. Systems programming (OS, drivers)
+3. WebAssembly (WASM) for web apps
+4. Embedded systems
+5. CLI tools (command-line apps)
 
 # Common Rust Libraries (Crates)
 In Rust, libraries are called crates.
-Popular ones:
-
-serde → for JSON/data handling
-tokio → async programming
-reqwest → HTTP requests
-clap → CLI apps
-actix-web → web backend framework
+Popular ones include:
+1. serde → for JSON/data handling
+2. tokio → async programming
+3. reqwest → HTTP requests
+4. clap → CLI apps
+5. actix-web → web backend framework
 
 # Variables in Rust
 Rust is strict but simple.
