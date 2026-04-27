@@ -110,3 +110,56 @@ cargo run
 1. How to create a Rust project using Cargo
 2. Basic Rust syntax
 3. Writing and running a simple program
+   
+# Project 2 : Creating a Simple Calculator
+# Rust Calculator
+
+A simple command-line calculator built with Rust. This project performs basic arithmetic operations: addition, subtraction, multiplication, and division.
+
+ # Features
+User-friendly CLI interface
+Supports:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division (with zero-check handling)
+Input validation using Rust parsing
+
+# Getting Started
+
+1. Clone the Repository
+git clone https://github.com/Gloriamuema/Rust-Programming.git
+1. Navigate into the Project
+cd rust_calculator
+1. Run the Application
+cargo run
+# Example Usage
+Simple Rust Calculator
+Choose an operation:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+Enter choice: 3
+Enter first number: 6
+Enter second number: 4
+
+✅ Result: 24
+# Project Structure
+rust_calculator/
+ ├── Cargo.toml
+ └── src/
+     └── main.rs
+# What I Learned
+Rust basics (variables, input/output, match statements)
+Handling user input in Rust
+Error handling using expect()
+Building CLI applications
+# Future Improvements
+Add loop for continuous calculations
+Improve error handling (avoid crashes)
+Add more operations (power, modulus)
+👩‍💻 Author
+
+Gloria Muema
