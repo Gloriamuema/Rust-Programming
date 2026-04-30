@@ -156,11 +156,38 @@ rust_calculator/
 2. Handling user input in Rust
 3. Error handling using expect()
 4. Building CLI applications
+
+# Common Errors & Solutions
+1. Parse Errors
+Error: Invalid number input
+Solution: Ensure .trim().parse() is used correctly
+2. Program Crashes with expect()
+Cause: Invalid user input
+Solution: Replace expect() with proper error handling
+3. Division by Zero
+Solution: Always validate input before division
+
+# AI Usage & Learning Reflections
+As part of the AI Access program, I used AI tools to:
+1. Understand Rust syntax and concepts
+2. Debug errors and improve code structure
+3. Generate explanations and refine logic
+   Example Prompts Used
+1. Refactor this Rust calculator code for best practices
+# Key Takeaways
+1. AI accelerates learning but requires validation
+2. Understanding concepts is more important than copying code
+3. Iterating with AI improves problem-solving skills
 # Future Improvements
 1. Add loop for continuous calculations
 2. Improve error handling (avoid crashes)
 3. Add more operations (power, modulus)
    
+# Reference Resources
+1. Official Rust Docs: https://doc.rust-lang.org/
+2. Rust Book: https://doc.rust-lang.org/book/
+3. Crates: https://crates.io/
+4. Rust by Example: https://doc.rust-lang.org/rust-by-example/
    
 # Author
 Gloria Muema
