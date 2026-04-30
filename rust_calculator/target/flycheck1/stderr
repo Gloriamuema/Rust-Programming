@@ -1,60 +1,12 @@
-    Blocking waiting for file lock on package cache
-    Blocking waiting for file lock on package cache
-   0.049518900s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint: fingerprint error for rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator)/Check { test: false }/TargetInner { name: "rust_calculator", doc: true, ..: with_path("C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\src\\main.rs", Edition2024) }
-   0.053241100s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator\target\debug\.fingerprint\rust_calculator-9e1f6f8a117a3727\bin-rust_calculator`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
-   0.093805400s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint: fingerprint error for rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator)/Check { test: true }/TargetInner { name: "rust_calculator", doc: true, ..: with_path("C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\src\\main.rs", Edition2024) }
-   0.093860100s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator\target\debug\.fingerprint\rust_calculator-5283a14d27eb72ce\test-bin-rust_calculator`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
+   0.026530100s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\src\\main.rs"
+   0.026582300s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\target\\debug\\.fingerprint\\rust_calculator-9e1f6f8a117a3727\\dep-bin-rust_calculator"
+   0.026603400s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13422024612, nanos: 528608500 } < FileTime { seconds: 13422024613, nanos: 454150900 }
+   0.026947600s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint: fingerprint dirty for rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator)/Check { test: false }/TargetInner { name: "rust_calculator", doc: true, ..: with_path("C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\src\\main.rs", Edition2024) }
+   0.026998100s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\target\\debug\\.fingerprint\\rust_calculator-9e1f6f8a117a3727\\dep-bin-rust_calculator", reference_mtime: FileTime { seconds: 13422024612, nanos: 528608500 }, stale: "C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\src\\main.rs", stale_mtime: FileTime { seconds: 13422024613, nanos: 454150900 } }))
+   0.028230800s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\src\\main.rs"
+   0.028255300s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\target\\debug\\.fingerprint\\rust_calculator-5283a14d27eb72ce\\dep-test-bin-rust_calculator"
+   0.028266000s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13422024612, nanos: 528608500 } < FileTime { seconds: 13422024613, nanos: 454150900 }
+   0.028514900s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint: fingerprint dirty for rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator)/Check { test: true }/TargetInner { name: "rust_calculator", doc: true, ..: with_path("C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\src\\main.rs", Edition2024) }
+   0.028561100s  INFO prepare_target{force=false package_id=rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator) target="rust_calculator"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\target\\debug\\.fingerprint\\rust_calculator-5283a14d27eb72ce\\dep-test-bin-rust_calculator", reference_mtime: FileTime { seconds: 13422024612, nanos: 528608500 }, stale: "C:\\Users\\GLORIA\\Desktop\\Rust-Programming\\rust_calculator\\src\\main.rs", stale_mtime: FileTime { seconds: 13422024613, nanos: 454150900 } }))
     Checking rust_calculator v0.1.0 (C:\Users\GLORIA\Desktop\Rust-Programming\rust_calculator)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.28s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.27s
